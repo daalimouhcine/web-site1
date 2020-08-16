@@ -134,7 +134,7 @@ nav ul li .sing-in:hover {
         left:0%;
     }
     100% {
-        left:-20%;
+        left:-30%;
     }
 }
 
@@ -170,7 +170,7 @@ nav ul li .sing-in:hover {
     padding-left:62px;
     padding-right:60px;
     padding-bottom:20px;
-    margin-left:50px;
+    margin-left:47px;
     background-color:#eee;
     position:absolute;
 
