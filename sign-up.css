@@ -1,0 +1,311 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+body {
+    background-color:#eee;
+}
+
+#in {
+    background-color:rgb(38, 33, 82);
+    color:lightblue;
+}
+
+
+/*----- start styling header -----*/
+
+header {
+    background-color:white;
+    padding:30px;
+    text-align:center;
+    font-family: cursive;
+}
+
+header span {
+    font-size:xxx-large;
+}
+
+header .color1 {
+    color:steelblue ;
+}
+header .color2 {
+    color:lightgray;
+}
+header .color3 {
+    color:palevioletred ;
+}
+header .color4 {
+    color:greenyellow ;
+}
+
+
+
+/*----- end styling header -----*/
+
+/*----- start styling navigation menu -----*/
+
+nav {
+    background-color: aliceblue;
+    padding:15px;
+}
+
+nav ul {
+    text-align:center;
+    list-style-type: none;
+    font-size:18px;
+}
+
+nav ul li {
+    display:inline-block;
+    font-family:cursive;
+}
+
+nav ul li .sing-in {
+    margin-left:40px;
+    padding:5px 30px;
+    border-radius:12px;
+    background-color:rgb(167, 189, 255)
+}
+
+nav ul li a {
+    padding:8px;
+    border-radius:3px;
+}
+
+nav ul li::after {
+    content:" |"
+}
+nav ul li:last-child:after {
+    content:" ";
+}
+nav ul li a:hover {
+    background-color:aquamarine;
+}
+
+nav ul li .sing-in:hover {
+    background-color:rgb(38, 33, 82);
+    color:lightblue;
+}
+
+
+
+/*----- end styling navigation menu -----*/
+
+/*----- start stylinginformation sign-in -----*/
+
+.information {
+    margin:50px auto;
+    width:35%;
+    font-family:cursive;
+}
+
+.information fieldset {
+    background-color:lightcyan;
+    border:1px solid lightblue;
+    border-radius:10px;
+    margin:20px;
+}
+
+.information fieldset legend {
+    background-color:rgb(28, 135, 243);
+    color:rgb(46, 69, 77);
+    padding:10px;
+    border:1px solid darkcyan;
+    border-radius:7px;
+    margin:10px;
+}
+
+.information fieldset form input ,.information fieldset form textarea  {
+    display:block;
+    text-align:center;
+    border:1px solid gray;
+    border-radius:5px;
+    padding:5px;
+    margin:10px 40px;
+}
+
+.information fieldset form label {
+    margin-left:50px;
+}
+.information fieldset form select {
+    border-radius:5px;
+}
+
+
+.information fieldset form b {
+    margin:-30px;
+}
+
+.information fieldset form a {
+    font-size:14px;
+    margin:70px;
+    text-decoration-line:underline;
+}
+
+.information fieldset form input[type="checkbox"] {
+    display:inline-block;
+}
+
+.information fieldset form input[type="submit"] {
+    cursor: pointer;
+    margin-left:105px;
+    background-color:rgb(171, 219, 235);
+    border:1px solid rgb(132, 198, 255);
+}
+
+.information fieldset form input[value="Send the message"] {
+    margin-left:160px;
+}
+
+.information fieldset form[name="information"] {
+    margin-left:80px;
+} 
+
+.information fieldset form[name="phone"] {
+    margin:10px 5px;
+} 
+
+.information fieldset form[name="phone"] h3 {
+    margin:20px 0px 10px 30px;
+} 
+
+.information fieldset form[name="phone"] input {
+    display: inline;
+}
+
+.information fieldset form[name="phone"] b {
+    font-size:14px;
+} 
+
+.information fieldset form[name="phone"] hr {
+    margin:20px 50px;
+    border:2px solid rgb(0, 86, 172);
+    border-radius:15px;
+} 
+
+.information fieldset form input[value="Send"] {
+    padding:5px 15px;
+    margin-left:180px;
+}
+
+
+
+
+/*----- end stylinginformation sign-in -----*/
+
+/*----- start styling footer -----*/
+
+footer {
+    background-color:royalblue;
+    height:100px;
+    text-decoration-line: overline;
+    position:relative;
+}
+
+footer div {
+    display:inline-block;
+    margin:20px;
+}
+
+footer div a {
+    color:whitesmoke;
+    font-size:xx-large;
+    margin:5px;
+    text-decoration-line: overline;
+}
+
+footer b {
+    color:whitesmoke;
+    font-family:cursive;
+    position:absolute;
+    margin-left:10px;
+    top:21%;
+}
+
+footer b span {
+    font-size:x-large;
+}
+
+footer p {
+    color:whitesmoke;
+    float:right;
+    margin:70px 10px 0px 0px;
+}
+
+
+
+.fa-facebook-square ,.fa-linkedin ,.fa-twitter-square ,.fa-instagram-square ,.fa-youtube-square ,.fa-whatsapp-square {
+    border-top:3px solid white;
+    border-radius:2px;
+    padding-top:3px;
+    transition: all linear 0.4s;
+}
+
+.fa-facebook-square:hover {
+    color:blue;
+    border-top:0px;
+    padding-top:0px;
+    padding-bottom:3px;
+    border-bottom:3px solid blue;
+    border-radius:2px;
+    box-shadow:rgb(137, 225, 255) 0px 0px 30px 5px;
+}
+.fa-linkedin:hover {
+    color:rgb(22, 63, 189);
+    border-top:0px;
+    padding-top:0px;
+    padding-bottom:3px;
+    border-bottom:3px solid rgb(22, 63, 189);
+    border-radius:2px;
+    box-shadow:rgb(110, 190, 240) 0px 0px 30px 5px;
+}
+.fa-twitter-square:hover {
+    color:rgb(168, 187, 250);
+    border-top:0px;
+    padding-top:0px;
+    padding-bottom:3px;
+    border-bottom:3px solid rgb(168, 187, 250);
+    border-radius:2px;
+    box-shadow:rgb(117, 170, 240) 0px 0px 30px 5px;
+}
+.fa-whatsapp-square:hover {
+    color:rgb(1, 185, 1);
+    border-top:0px;
+    padding-top:0px;
+    padding-bottom:3px;
+    border-bottom:3px solid rgb(1, 185, 1);
+    border-radius:2px;
+    box-shadow: rgb(161, 255, 68) 0px 0px 30px 5px;
+}
+.fa-youtube-square:hover {
+    color:red;
+    border-top:0px;
+    padding-top:0px;
+    padding-bottom:3px;
+    border-bottom:3px solid red;
+    border-radius:2px;
+    box-shadow:rgb(255, 139, 156) 0px 0px 30px 5px;
+}
+.fa-instagram-square:hover {
+    background: linear-gradient(to right, #fda128 20%, #3e3bff 40%,  #9d38fc 80%);
+    border-top:0px;
+    padding-top:0px;
+    border-bottom:3px solid #9d38fc;
+    border-radius:2px;
+    padding-bottom:3px;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow:rgb(230, 110, 226) 0px 0px 30px 5px;
+}
+
+
+
+/*---- end styling footer -----*/

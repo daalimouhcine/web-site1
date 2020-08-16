@@ -1,0 +1,104 @@
+<!doctype HTML>
+
+<html lang="en">
+
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="sign-up.css">
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+                <span class="color1">C</span>
+                <span class="color2">S</span>
+                <span class="color3">5</span>
+                <span class="color4">0</span>
+                <b>sign-up page</b>
+        </header>
+        <!--start navigation menu-->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="anime.html">Anime</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a class="sing-in" id="in" href="sign-in.html">Sign in</a></li>
+            </ul>
+        </nav>
+        <!--end navigation menu-->
+        <!--start content-->
+        <div class="information">
+            <fieldset>
+                <legend>Personnal information</legend>
+                <form name="information" enctype="multipart/form-data" method="GET">
+                    <input type="text" name="first-name" placeholder=" First-name" autocomplete="none" required>
+                    <input type="text" name="last-name" placeholder=" Last-name" autocomplete="none" required>
+                    <label>Gender : </label>
+                    <select>
+                        <option value="Male">Male
+                        <option value="Female">Female
+                    </select>
+                    <input type="text" name="username" placeholder=" Username" required>
+                    <input type="email" name="email" placeholder=" E-mail" required>
+                    <input type="password" name="password" placeholder=" password" required>
+                    <input type="checkbox" name="checkbox" required><b>I agree whith the roles</b> <br> <a href="rolse.html">Read the roles Her.</a>
+                    <input type="submit" name="submit" value="Sign up">
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>More information</legend>
+                <form name="phone">
+                    <h3>whats your phone ?</h3>
+                    <input type="radio" name="phone"><b>Iphone</b> <br>
+                    <input type="radio" name="phone"><b>Samsung</b> <br>
+                    <input type="radio" name="phone"><b>Nokia</b> <br>
+                    <input type="radio" name="phone"><b>Oppo</b> <br>
+
+                    <hr>
+
+                    <h3>whats your browser ?</h3>
+                    <input type="radio" name="browser"><b>Safari</b> <br>
+                    <input type="radio" name="browser"><b>Google chrome</b> <br>
+                    <input type="radio" name="browser"><b>Internet explorer</b> <br>
+                    <input type="radio" name="browser"><b>Mozila foxe</b> <br>
+                    <input type="radio" name="browser"><b>Opera</b> <br>
+
+                    <hr>
+
+                    <h3>whats your operation sestyme ?</h3>
+                    <input type="radio" name="sestyme"><b>Mac OSW</b> <br>
+                    <input type="radio" name="sestyme"><b>Windows</b> <br>
+                    <input type="radio" name="sestyme"><b>Linux</b> <br>
+
+                    <input type="submit" value="Send">
+                </form>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Contact us</legend>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your e-mail">
+                    <textarea rows="10" cols="50" placeholder="Enter your message"></textarea>
+                    <input type="submit" name="submit" value="Send the message">
+                </form>
+            </fieldset>
+        </div>
+        <!--end content-->
+        <!--start footer-->
+            <footer>
+                <div>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-youtube-square"></i></a>
+                    <a href=""><i class="fab fa-whatsapp-square"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <b><span>&leftarrow;</span> Do hover on top of these items</b>
+                </div>
+                <p>Copyright 2020 &copy; All Rights Reserved.</p>
+            </footer>
+        <!--end footer-->
