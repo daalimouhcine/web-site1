@@ -171,6 +171,11 @@ nav ul li .sing-in:hover {
     padding:80px;
     display: inline-block;
 }
+.main:hover {
+    transform:scale(1.1);
+    transition:all linear 0.4s;
+}
+
 
 .main .first-content p {
     width:250px;
@@ -194,6 +199,10 @@ nav ul li .sing-in:hover {
     margin:100px 50px 50px 20px;
     padding:80px;
     display: inline-block;
+}
+.main1:hover {
+    transform:scale(1.1);
+    transition:all linear 0.4s;
 }
 
 .main1 .secend-content p {
