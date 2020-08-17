@@ -9,7 +9,7 @@ a {
 }
 
 body {
-    background-color:#eee;
+    background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 
 .in {
@@ -165,7 +165,8 @@ nav ul li .sing-in:hover {
 }
 
 .main {
-    background-color:white;
+    background:linear-gradient(40deg , rgb(178, 255, 255), rgb(242, 180, 255));
+    border-radius:20px;
     margin:100px 50px 50px 20px;
     padding:80px;
     display: inline-block;
@@ -188,7 +189,8 @@ nav ul li .sing-in:hover {
 }
 
 .main1 {
-    background-color:white;
+    background:repeating-linear-gradient(45deg , rgb(241, 136, 255) 0px , rgb(93, 255, 228) 30px);
+    border-radius:20px;
     margin:100px 50px 50px 20px;
     padding:80px;
     display: inline-block;
